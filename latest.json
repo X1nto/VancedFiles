@@ -60,7 +60,7 @@
       "vi",
       "zh"
     ],
-    "versions": ["15.05.54","15.33.34","15.38.35","15.40.37","15.43.32","16.02.35","16.14.34","16.16.38","16.20.35"],
+    "versions": ["15.43.32","16.02.35","16.14.34","16.16.38","16.20.35"],
     "package_name": "com.vanced.android.youtube",
     "package_name_root": "com.google.android.youtube",
     "changelog": "- based on 16.16.38\n- preferred quality for videos fixed\n- battery drain fixed\n- random switching to white theme fixed\n- sponsorblock buttons getting stuck at the end of videos fixed\n- video id not getting set on sponsorblock and copy url button fixed\n- swipe controls fixed (however in order to make them work end cards have to be disabled now while swipe controls are on)\nKnown issues:\n- casting still broken on nonroot due to microG, it will need to be patched upstream first or a bypass will need to be found, use stock youtube for now or root vanced (vanced does not block casting ads)\n- preferred quality not working on portrait videos (has been an issue since 15.x)",
@@ -70,7 +70,7 @@
     "name": "YouTube Vanced Music", 
     "version": "4.25.52",
     "versionCode": 42552200,
-    "versions": ["4.02.51","4.04.52","4.07.51","4.11.50","4.18.50","4.24.51","4.25.52","4.27.50","4.29.50","4.30.50","4.30.51"],
+    "versions": ["4.25.52","4.27.50","4.29.50","4.30.50","4.30.51"],
     "package_name": "com.vanced.android.apps.youtube.music",
     "package_name_root": "com.google.android.apps.youtube.music",
     "changelog": "- increased base to 4.25.52\n- fixed battery drain issue for real this time",
