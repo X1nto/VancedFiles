@@ -68,8 +68,8 @@
   },
   "music": {
     "name": "YouTube Vanced Music", 
-    "version": "4.25.52",
-    "versionCode": 42552200,
+    "version": "4.30.51",
+    "versionCode": 43051200,
     "versions": ["4.25.52","4.27.50","4.29.50","4.30.50","4.30.51"],
     "package_name": "com.vanced.android.apps.youtube.music",
     "package_name_root": "com.google.android.apps.youtube.music",
@@ -78,8 +78,8 @@
   },
   "microg": {
     "name": "Vanced microG", 
-    "version": "0.2.18.210500",
-    "versionCode": 210500001,
+    "version": "0.2.21.212417",
+    "versionCode": 212417001,
     "url": "https://github.com/YTVanced/VancedMicroG/releases/latest/download/microg.apk",
     "package_name": "com.mgoogle.android.gms",
     "changelog": "- update to latest upstream\n- fix missing class",
