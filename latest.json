@@ -1,6 +1,7 @@
 {
   "is_microg_broken": false,
   "manager": {
+    "name": "Vanced Manager",
     "version": "2.6.0",
     "versionCode": 260,
     "url": "https://github.com/YTVanced/VancedManager/releases/latest/download/manager.apk",
