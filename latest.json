@@ -2,16 +2,16 @@
   "is_microg_broken": false,
   "manager": {
     "name": "Vanced Manager",
-    "version": "2.6.0",
-    "versionCode": 260,
+    "version": "2.6.2",
+    "versionCode": 262,
     "url": "https://github.com/YTVanced/VancedManager/releases/latest/download/manager.apk",
-    "changelog":"- New UI for Vanced app cards\n- Added a progress percentage inside downloader dialogs\n- Pressing the version card in the About menu will now show a manager changelog menu\n- Updated layouts to make them look more similar\n- \"INSTALL_FAILED_INTERNAL_ERROR: Permission denied\" will now always redirect to the MIUI optimizations dialog\n- Optimized accent-themed views \n- Removed/Updated old code\n- Fixed button not working in the welcome screen for RTL languages\n- Fixed \"[INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install com.google.android.youtube without first uninstalling]\" in root installer\n- Fixed crash if the session id is null in root installer", 
+    "changelog":"- Fixed root installer for some users\n- App now checks for magisk and displays and error message if it's not detected\n- Various optimizations", 
     "package_name": "com.vanced.manager"
   },
   "vanced": {
     "name": "YouTube Vanced",
-    "version": "16.20.35",
-    "versionCode": 1521081792,
+    "version": "16.29.39",
+    "versionCode": 1522269632,
     "themes": ["dark", "black"],
     "langs": [
       "af",
@@ -64,26 +64,26 @@
     "versions": ["15.43.32","16.02.35","16.14.34","16.16.38","16.20.35"],
     "package_name": "com.vanced.android.youtube",
     "package_name_root": "com.google.android.youtube",
-    "changelog": "- based on 16.16.38\n- preferred quality for videos fixed\n- battery drain fixed\n- random switching to white theme fixed\n- sponsorblock buttons getting stuck at the end of videos fixed\n- video id not getting set on sponsorblock and copy url button fixed\n- swipe controls fixed (however in order to make them work end cards have to be disabled now while swipe controls are on)\nKnown issues:\n- casting still broken on nonroot due to microG, it will need to be patched upstream first or a bypass will need to be found, use stock youtube for now or root vanced (vanced does not block casting ads)\n- preferred quality not working on portrait videos (has been an issue since 15.x)",
+    "changelog": "- Bumped base \n-SPONSORBLOCK (thanks to cane):\n- fixed buttons after watching shorts\n- added preview category\n- added length of the video without segments next to the total time\n- added stats to SB settings\n- made segment categories color customizable \n- added support for importing-exporting settings\nKNOWN ISSUES:\n- casting to Chromecast still broken on nonroot due to microG, it will need to be patched upstream first. Switch to root version or use stock youtube for now (vanced does not block casting ads anyway)\n- Swipe down to refresh (it's a litho bug)",
     "icon_url": "https://x1nto.github.io/VancedFiles/vanced.png"
   },
   "music": {
     "name": "YouTube Vanced Music", 
-    "version": "4.30.51",
-    "versionCode": 43051200,
+    "version": "4.39.50",
+    "versionCode": 43950200,
     "versions": ["4.25.52","4.27.50","4.29.50","4.30.50","4.30.51"],
     "package_name": "com.vanced.android.apps.youtube.music",
     "package_name_root": "com.google.android.apps.youtube.music",
-    "changelog": "- increased base to 4.25.52\n- fixed battery drain issue for real this time",
+    "changelog": "- Bumped base\n- added the following translations to vanced settings: Slovak, Romanian, Polish, Korean, Italian, Indonesian, Greek, German, Finnish, Dutch, Czech, Bulgarian, Azerbaijani, Japanese.\n- unlocked mini-player for kids songs\n- fixed login for some Android 11 devices",
     "icon_url": "https://x1nto.github.io/VancedFiles/music.png"
   },
   "microg": {
     "name": "Vanced microG", 
-    "version": "0.2.21.212417",
-    "versionCode": 212417001,
+    "version": "0.2.22.212658",
+    "versionCode": 212658001,
     "url": "https://github.com/YTVanced/VancedMicroG/releases/latest/download/microg.apk",
     "package_name": "com.mgoogle.android.gms",
-    "changelog": "- update to latest upstream\n- fix missing class",
+    "changelog": "- Update to latest upstream",
     "icon_url": "https://x1nto.github.io/VancedFiles/microg.png"
   }
 }
