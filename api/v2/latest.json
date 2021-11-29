@@ -10,7 +10,7 @@
   "apps": {
     "nonroot": [
       {
-        "name": "Youtube Vanced",
+        "name": "YouTube Vanced",
         "version": "16.29.39",
         "version_code": 1522269632,
         "themes": ["dark", "black"],
@@ -88,7 +88,7 @@
     ],
     "root": [
       {
-        "name": "Youtube Vanced",
+        "name": "YouTube Vanced",
         "version": "16.29.39",
         "version_code": 1522269632,
         "themes": ["dark", "black"],
